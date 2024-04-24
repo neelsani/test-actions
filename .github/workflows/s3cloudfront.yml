@@ -1,0 +1,9 @@
+name: Upload Static Site to S3
+
+on: workflow_dispatch
+
+jobs:
+  upload:
+    steps:
+      - name: Test
+        run: aws --version
